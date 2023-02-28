@@ -1,7 +1,7 @@
 public class Assento{
   private int codigo;
   private Boolean ocupado;
-  private int sala;
+  private Sala sala;
 
   public int getCodigo()
   {
@@ -23,11 +23,11 @@ public class Assento{
   }
 
 
-  public int getSala()
+  public Sala getSala()
   {
     return sala;
   }
-  public void setSala(int s)
+  public void setSala(Sala s)
   {
     sala = s;
   }

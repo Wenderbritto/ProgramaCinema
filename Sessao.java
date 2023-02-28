@@ -3,8 +3,8 @@ public class Sessao{
   private int hora;
   private float valor;
   private boolean encerrada;
-  private int sala;
-  private String filme;
+  private Sala sala;
+  private Filme filme;
 
   public int getData()
   {
@@ -46,21 +46,21 @@ public class Sessao{
   }
 
 
-  public int getSala()
+  public Sala getSala()
   {
     return sala;
   }
-  public void setSala(int s)
+  public void setSala(Sala s)
   {
     sala = s;
   }
 
 
-  public String getFilme()
+  public Filme getFilme()
   {
     return filme;
   }
-  public void setFilme(String f)
+  public void setFilme(Filme f)
   {
     filme = f;
   }

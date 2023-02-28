@@ -1,7 +1,7 @@
 public class Ingresso{
   private boolean meiaEntrada;
-  private int sessao;
-  private int assento;
+  private Sessao sessao;
+  private Assento assento;
 
   public boolean getMeiaEntrada()
   {
@@ -13,21 +13,21 @@ public class Ingresso{
   }
 
 
-  public int getSessao()
+  public Sessao getSessao()
   {
     return sessao;
   }
-  public void setSessao(int s)
+  public void setSessao(Sessao s)
   {
     sessao = s;
   }
 
 
-  public int getAssento()
+  public Assento getAssento()
   {
     return assento;
   }
-  public void setAssento(int a)
+  public void setAssento(Assento a)
   {
     assento = a;
   }

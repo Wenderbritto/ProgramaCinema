@@ -1,7 +1,7 @@
 public class Papel {
   private String nome;
-  private String ator;
-  private String filme;
+  private Ator ator;
+  private Filme filme;
 
 
   public String getNome()
@@ -14,21 +14,21 @@ public class Papel {
   }
 
 
-  public String getAtor()
+  public Ator getAtor()
   {
     return ator;
   }
-  public void setAtor(String a)
+  public void setAtor(Ator a)
   {
     ator = a; 
   }
 
 
-  public String getFilme()
+  public Filme getFilme()
   {
     return filme;
   }
-  public void setFilme(String f)
+  public void setFilme(Filme f)
   {
     filme = f;
   }
