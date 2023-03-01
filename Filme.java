@@ -1,6 +1,6 @@
 public class Filme{
   private String titulo;
-  private int duracao;
+  private String duracao;
   private Genero genero;
 
   
@@ -14,11 +14,11 @@ public class Filme{
   }
 
   
-  public int getDuracao()
+  public String getDuracao()
   {
     return duracao; 
   }
-  public void setDuracao(int du)
+  public void setDuracao(String du)
   {
     duracao = du;
   }

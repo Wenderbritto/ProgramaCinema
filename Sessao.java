@@ -1,26 +1,26 @@
 public class Sessao{
-  private int data;
-  private int hora;
+  private String data;
+  private String hora;
   private float valor;
   private boolean encerrada;
   private Sala sala;
   private Filme filme;
 
-  public int getData()
+  public String getData()
   {
     return data;
   }
-  public void setData(int d)
+  public void setData(String d)
   {
     data = d;
   }
 
 
-  public int getHora()
+  public String getHora()
   {
     return hora;
   }
-  public void setHora(int h)
+  public void setHora(String h)
   {
     hora = h;
   }

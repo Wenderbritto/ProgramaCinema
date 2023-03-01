@@ -1,13 +1,13 @@
 public class Assento{
-  private int codigo;
+  private String codigo;
   private Boolean ocupado;
   private Sala sala;
 
-  public int getCodigo()
+  public String getCodigo()
   {
     return codigo;
   }
-  public void setCodigo(int c)
+  public void setCodigo(String c)
   {
     codigo = c;
   }
